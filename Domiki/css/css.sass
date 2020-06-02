@@ -1,0 +1,227 @@
+
+%main
+    width: 380px
+    height: 300px
+    border-color: black
+    border-radius: 3px
+    background-color: darkgrey
+
+%window_base
+    width: 60px
+    height: 100px
+    background-color: cyan
+%window_base_low
+    width: 60px
+    height: 70px
+    background-color: cyan
+%door
+    width: 60px
+    height: 100px
+    background-color: brown
+
+%home_roof
+        padding: 0px
+        width: 420px
+        height: 20px
+        color: white
+        background-color: blue
+        margin: -20px
+
+body
+    padding: 0px
+    margin: 0px
+    background-image: url("https://media.istockphoto.com/vectors/space-stars-background-vector-illustration-of-the-night-sky-vector-id683545762?k=6&m=683545762&s=170667a&w=0&h=2hMESIOrBz4V1sTx0tZuEGex6wy7MDQ5Lk_KHVDQ2Ao=");
+.content
+    width: 450px
+    height: auto
+    background-color: green
+.div1
+    @extend %main
+    margin-left: 20px
+    margin-top: 70px
+    position: sticky
+    top: 0
+    .home_roof
+        @extend %home_roof
+        position:sticky
+        
+    
+    .window1
+        @extend %window_base
+        margin-left: 30px
+        margin-top: 50px
+    
+        
+    .window2
+        @extend %window_base
+        margin-left: 100px
+        margin-top: 50px
+        width: 125px
+        position: sticky
+
+    .window3
+        @extend %window_base
+        margin-left: 160px
+        margin-top: 50px
+        position: sticky
+    .window4
+        @extend %window_base_low
+        margin-left: 30px
+        margin-top: 50px
+        position: sticky
+    .window5
+        @extend %window_base_low
+        margin-left: 125px
+        margin-top: 50px
+        position: sticky
+    .door
+        @extend %door
+        margin-left: 135px
+        position: sticky
+
+.div2
+    @extend %main
+    margin-left: 20px
+    margin-top: 70px
+    position: relative
+    .home_roof
+        @extend %home_roof
+    
+    .window1
+        @extend %window_base
+        margin-left: 30px
+        margin-top: 50px
+    .window2
+        @extend %window_base
+        margin-left: 100px
+        margin-top: 50px
+        width: 125px
+
+    .window3
+        @extend %window_base
+        margin-left: 160px
+        margin-top: 50px
+    .window4
+        @extend %window_base_low
+        margin-left: 30px
+        margin-top: 50px
+    .window5
+        @extend %window_base_low
+        margin-left: 125px
+        margin-top: 50px
+    .door
+        @extend %door
+        margin-left: 135px
+
+
+    
+    
+.div3
+    @extend %main
+    margin-left: 570px
+    margin-top: 55px
+    margin-bottom: 90px
+
+    position: absolute
+    .home_roof
+        @extend %home_roof
+    
+    .window1
+        @extend %window_base
+        margin-left: 30px
+        margin-top: 50px
+    .window2
+        @extend %window_base
+        margin-left: 100px
+        margin-top: 50px
+        width: 125px
+
+    .window3
+        @extend %window_base
+        margin-left: 160px
+        margin-top: 50px
+    .window4
+        @extend %window_base_low
+        margin-left: 30px
+        margin-top: 50px
+    .window5
+        @extend %window_base_low
+        margin-left: 125px
+        margin-top: 50px
+    .door
+        @extend %door
+        margin-left: 135px
+
+
+.div4
+    @extend %main
+    margin-left: 570px
+    margin-top: -350px
+    position: fixed
+    z-index: -1
+    .home_roof
+        @extend %home_roof
+            
+            
+            
+    
+    .window1
+        @extend %window_base
+        margin-left: 30px
+        margin-top: 50px
+    .window2
+        @extend %window_base
+        margin-left: 100px
+        margin-top: 50px
+        width: 125px
+
+    .window3
+        @extend %window_base
+        margin-left: 160px
+        margin-top: 50px
+    .window4
+        @extend %window_base_low
+        margin-left: 30px
+        margin-top: 50px
+    .window5
+        @extend %window_base_low
+        margin-left: 125px
+        margin-top: 50px
+    .door
+        @extend %door
+        margin-left: 135px
+
+
+.div5
+    @extend %main
+    margin-left: 20px
+    margin-top: 70px
+    position: static
+    .home_roof
+        @extend %home_roof
+    
+    .window1
+        @extend %window_base
+        margin-left: 30px
+        margin-top: 50px
+    .window2
+        @extend %window_base
+        margin-left: 100px
+        margin-top: 50px
+        width: 125px
+
+    .window3
+        @extend %window_base
+        margin-left: 160px
+        margin-top: 50px
+    .window4
+        @extend %window_base_low
+        margin-left: 30px
+        margin-top: 50px
+    .window5
+        @extend %window_base_low
+        margin-left: 125px
+        margin-top: 50px
+    .door
+        @extend %door
+        margin-left: 135px

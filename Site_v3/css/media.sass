@@ -1,0 +1,190 @@
+
+$sninefour: rgb(94, 94, 94)
+$ssevenx2: rgb(77, 77, 77)
+
+@mixin transform($a)
+
+    -webkit-transform: $a
+    -ms-transform: $a
+    transform: $a
+
+
+
+    
+
+        
+@media(max-width:2560px)
+	%li_s 
+		color: rgb(89, 44, 82)
+		font-size: 40px
+		padding: 6px
+		display: inline-block
+    
+	.img
+    @include transform(rotate(15deg) )
+	text-align:center
+    
+		
+    
+	.list_style li
+        @extend %li_s
+        
+	.list_style li:before
+
+		padding-right: 10px
+		font-weight: bold
+		font-size: 40px
+		color: $ssevenx2
+		content: "♥"
+	
+	table 
+		float: left
+		border-collapse: collapse
+		font-family: 'Gill Sans', sans-serif
+		font-size: 20px
+		border-collapse: collapse
+		text-align: center
+		width: 97%
+        
+	th td
+		&:first-child
+			color: darkblue
+			padding: 7px 15px
+
+		border-style: double
+		border-width: 0 1px 1px 0
+		border-color: white
+
+	td
+		color: darkgreen
+
+	th:first-child, td:first-child
+		text-align: center
+		
+	.theme
+		text-align: center
+		font-size: 25px
+		font: Arial
+		color: rgb(65, 0, 130)
+	
+	.imagine 
+		width: auto
+		height: auto
+	
+
+
+@media(max-width:780px)
+	%li_si 
+		color: rgb(89, 44, 82)
+		font-size: 40px
+		padding: 6px
+		display: inline-block
+    
+	.img
+		height: 356
+		text-align: center
+		width: 100%
+		height: auto
+    
+	.list_style li
+        @extend %li_si
+        
+	.list_style li:before
+
+		padding-right: 10px
+		font-weight: bold
+		font-size: 40px
+		color: $ssevenx2
+		content: "♥"
+	
+	table 
+		width: 97%
+		font-family: 'Gill Sans', sans-serif
+		font-size: 20px
+		border-collapse: collapse
+		text-align: center
+		
+	th td
+		&:first-child
+			color: darkblue
+			padding: 7px 15px
+
+		border-style: double
+		border-width: 0 1px 1px 0
+		border-color: white
+
+	td
+		color: darkgreen
+
+	th:first-child, td:first-child
+		text-align: center
+		
+	.theme
+		text-align:	center
+		font-size: 23px
+		font:	Arial
+		color: rgb(65, 0, 130)
+	
+		.imagine 
+			width:auto
+			height:auto
+	
+
+
+@media(max-width:414px)
+	%li_sii 
+		color: rgb(89, 44, 82)
+		font-size: 40px
+		padding: 6px
+		display: inline-block
+
+	.img
+		width: 100%
+		height: auto
+		text-align: center
+    
+	.list_style li
+        @extend %li_sii
+    
+	.list_style li:before
+
+		padding-right: 10px
+		font-weight: bold
+		font-size: 80px
+		color: $ssevenx2
+		content: "♥"
+	
+	table 
+		width: 97%
+		font-family: 'Gill Sans', sans-serif
+		font-size: 9px
+		border-collapse: collapse
+		text-align: center
+		width: 95vw
+		
+	th td
+		&:first-child
+			color: darkblue
+			padding: 7px 15px
+
+		border-style: double
+		border-width: 0 1px 1px 0
+		border-color: white
+
+	td
+		color: darkgreen
+
+	th:first-child, td:first-child
+		text-align: center
+		
+	.theme
+		text-align: center
+		font-size: 20px
+		font: Arial
+		color: rgb(65, 0, 130)
+	
+	.center .imagine 
+		width: 100%
+		height: auto
+
+		

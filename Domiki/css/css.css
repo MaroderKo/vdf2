@@ -1,0 +1,241 @@
+.div1, .div2, .div3, .div4, .div5 {
+  width: 380px;
+  height: 300px;
+  border-color: black;
+  border-radius: 3px;
+  background-color: darkgrey;
+}
+
+.div1 .window1, .div1 .window2, .div1 .window3, .div2 .window1, .div2 .window2, .div2 .window3, .div3 .window1, .div3 .window2, .div3 .window3, .div4 .window1, .div4 .window2, .div4 .window3, .div5 .window1, .div5 .window2, .div5 .window3 {
+  width: 60px;
+  height: 100px;
+  background-color: cyan;
+}
+
+.div1 .window4, .div1 .window5, .div2 .window4, .div2 .window5, .div3 .window4, .div3 .window5, .div4 .window4, .div4 .window5, .div5 .window4, .div5 .window5 {
+  width: 60px;
+  height: 70px;
+  background-color: cyan;
+}
+
+.div1 .door, .div2 .door, .div3 .door, .div4 .door, .div5 .door {
+  width: 60px;
+  height: 100px;
+  background-color: brown;
+}
+
+.div1 .home_roof, .div2 .home_roof, .div3 .home_roof, .div4 .home_roof, .div5 .home_roof {
+  padding: 0px;
+  width: 420px;
+  height: 20px;
+  color: white;
+  background-color: blue;
+  margin: -20px;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  background-image: url("https://media.istockphoto.com/vectors/space-stars-background-vector-illustration-of-the-night-sky-vector-id683545762?k=6&m=683545762&s=170667a&w=0&h=2hMESIOrBz4V1sTx0tZuEGex6wy7MDQ5Lk_KHVDQ2Ao=");
+}
+
+.content {
+  width: 450px;
+  height: auto;
+  background-color: green;
+}
+
+.div1 {
+  margin-left: 20px;
+  margin-top: 70px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.div1 .window1 {
+  margin-left: 30px;
+  margin-top: 50px;
+}
+
+.div1 .window2 {
+  margin-left: 100px;
+  margin-top: 50px;
+  width: 125px;
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+.div1 .window3 {
+  margin-left: 160px;
+  margin-top: 50px;
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+.div1 .window4 {
+  margin-left: 30px;
+  margin-top: 50px;
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+.div1 .window5 {
+  margin-left: 125px;
+  margin-top: 50px;
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+.div1 .door {
+  margin-left: 135px;
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+.div2 {
+  margin-left: 20px;
+  margin-top: 70px;
+  position: relative;
+}
+
+.div2 .window1 {
+  margin-left: 30px;
+  margin-top: 50px;
+}
+
+.div2 .window2 {
+  margin-left: 100px;
+  margin-top: 50px;
+  width: 125px;
+}
+
+.div2 .window3 {
+  margin-left: 160px;
+  margin-top: 50px;
+}
+
+.div2 .window4 {
+  margin-left: 30px;
+  margin-top: 50px;
+}
+
+.div2 .window5 {
+  margin-left: 125px;
+  margin-top: 50px;
+}
+
+.div2 .door {
+  margin-left: 135px;
+}
+
+.div3 {
+  margin-left: 570px;
+  margin-top: 55px;
+  margin-bottom: 90px;
+  position: absolute;
+}
+
+.div3 .window1 {
+  margin-left: 30px;
+  margin-top: 50px;
+}
+
+.div3 .window2 {
+  margin-left: 100px;
+  margin-top: 50px;
+  width: 125px;
+}
+
+.div3 .window3 {
+  margin-left: 160px;
+  margin-top: 50px;
+}
+
+.div3 .window4 {
+  margin-left: 30px;
+  margin-top: 50px;
+}
+
+.div3 .window5 {
+  margin-left: 125px;
+  margin-top: 50px;
+}
+
+.div3 .door {
+  margin-left: 135px;
+}
+
+.div4 {
+  margin-left: 570px;
+  margin-top: -350px;
+  position: fixed;
+  z-index: -1;
+}
+
+.div4 .window1 {
+  margin-left: 30px;
+  margin-top: 50px;
+}
+
+.div4 .window2 {
+  margin-left: 100px;
+  margin-top: 50px;
+  width: 125px;
+}
+
+.div4 .window3 {
+  margin-left: 160px;
+  margin-top: 50px;
+}
+
+.div4 .window4 {
+  margin-left: 30px;
+  margin-top: 50px;
+}
+
+.div4 .window5 {
+  margin-left: 125px;
+  margin-top: 50px;
+}
+
+.div4 .door {
+  margin-left: 135px;
+}
+
+.div5 {
+  margin-left: 20px;
+  margin-top: 70px;
+  position: static;
+}
+
+.div5 .window1 {
+  margin-left: 30px;
+  margin-top: 50px;
+}
+
+.div5 .window2 {
+  margin-left: 100px;
+  margin-top: 50px;
+  width: 125px;
+}
+
+.div5 .window3 {
+  margin-left: 160px;
+  margin-top: 50px;
+}
+
+.div5 .window4 {
+  margin-left: 30px;
+  margin-top: 50px;
+}
+
+.div5 .window5 {
+  margin-left: 125px;
+  margin-top: 50px;
+}
+
+.div5 .door {
+  margin-left: 135px;
+}
+/*# sourceMappingURL=css.css.map */
